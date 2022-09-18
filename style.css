@@ -1,0 +1,218 @@
+body {
+    background-color: black;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#order {
+    position: absolute;
+    left: 0px;
+    transition: all 2s;
+    font-size: 35px;
+    padding: 20px;
+    display: inline-block;
+    width: 37%;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: auto;
+}
+
+h2 {
+    transition:all 1s;
+    font-size: 35px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: auto;
+    background-color: none;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50px;
+}
+
+h2:hover{
+    transition:all 1s;
+    animation: spin 5s ease-in-out infinite;
+    background-color: black;
+    border: 2px solid gold;
+}
+
+@keyframes spin {
+    0% {
+      background-color: blue;
+      border: 2px solid blue;
+    }
+    25%{
+        background-color: gold;
+        border: 2px solid gold;
+    }
+    50% {
+        background-color: gold;
+        border: 2px solid gold;
+    }
+    100% {
+      background-color: blue;
+      border: 2px solid blue;
+    }
+  }
+
+#logo {
+    font-family:fantasy monospace;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 50px; 
+}
+span {
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+
+a {
+    transition: all 2s;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    font-size: 15px;
+    border: 1 px solid black;
+    border-radius: 50px;
+    padding: 80px;
+    height: 50px;
+}
+
+a:hover {
+    animation: spin2 5s ease-in-out infinite;
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+h1 {
+    height: 30px;
+    color: white;
+}
+
+h6 {
+    width: 65%;
+    text-align: end;
+    font-size: 30px;
+    font-style: italic;
+}
+
+iframe {
+    transition: all 2s;
+    width: 90%;
+    height: 500px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+iframe:hover {
+    width: 100%;
+    height: 600px;
+}
+
+#Pay_Mpesa{
+    position: absolute;
+    top: 50;
+    left: 1150px;
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    padding: 20px;
+    width: 33.33333333333333%;
+    border: 5px solid white;
+    border-radius: 50px;
+    height: auto;
+}
+
+h3 {
+    transition: all 2s;
+    color: white; 
+    text-align: center;
+    display: inline-block;
+    width: 85%;
+    font-size: 75px;
+    letter-spacing: 60px;
+    border-radius: 50px;
+}
+
+h5 {
+    font-size: 50px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 50px;
+}
+
+
+h7 {
+    color: black;
+}
+
+.s1 {
+    width: 50px;
+    color: white;
+}
+
+img {
+    border-radius: 50px;
+}
+
+.fk {
+    width: 30%;
+}
+
+#menu {
+    transition: all 2s;
+    width: 50%;
+    font-size: 30px;
+    height: 150px;
+}
+
+#f22 {
+    font-size: 30px;
+}
+
+#dd {
+    align-items: center;
+    color: white;
+    width: 20%
+}
+
+#map {
+    position: absolute;
+    display: inline-block;
+    width: 200px;
+}
+
+#t1 {
+    position: absolute;
+    left: 780px;
+    border: 5px solid white;
+    width: 360px;
+    border-radius: 50px;
+}

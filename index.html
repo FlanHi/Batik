@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="batik1.jpg">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batik - Nairobi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="order">
+      <img src="batik1.jpg" alt="Our logo" width="240" height="280" draggable="false"><br/>
+      <a href="https://web.whatsapp.com/send?phone=0793472233&text=Hello%2C+I+would+like+to+place+an+order."><h2><img src='outline_whatsapp_white_48dp.png' width="60" height="60"></h2></a>
+      <a href="mailto:heliopolisecatering@gmail.com"><h2>Send feedback</h2></a>
+      <a href="tel:+254793472233"><h2><img src="outline_phone_white_48dp.png" width="60" height="60"></h2></a>
+      <a href="BATIK Menu.pdf"><h2>Download menu</h2></a>
+      <iframe src="BATIK Menu.pdf" height="150"></iframe>
+      <Marquee behavior='scroll' scrollamount="15">
+        <img src="food1.jpg" height="200px" draggable='false'/>
+        <img src="food2.jpg" height="200px" draggable="false"/>
+        <img src="food3.jpg" height="200px" draggable="false"/>
+        <img src="food4.jpg" height="200px "draggable='false'/>
+      </Marquee>
+  </div>
+  <div id="t1">
+    <p><b>A really good place to hang out with family and friends</b></p>
+    <img src="jie-wang-XciY4hwqnNk-unsplash.jpg" width="300" height="280">
+  </div>
+  <div id="Pay_Mpesa">
+    <img src="mpesa.png" width="800" height="450">
+    <h5>Our Till Number: </h5>
+    <h3>586<span class='s1'>0</span>185</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.888761625324!2d36.80821951510842!3d-1.2368240359239306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f175a325a9b63%3A0x2ad2d9f622d5f1c9!2sHQ%20Cafe!5e0!3m2!1sen!2ske!4v1663402547336!5m2!1sen!2ske" width="100" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1000, function(){
+
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
+
+</script>
+</body>
+</html>
